@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    />
+  </head>
+  <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="travel.html">Travel</a>
+        <a href="history.html">History</a>
+        <a href="weather.html">Weather</a>
+      </div>
+    </div>
+    <span style="font-size: 40px; cursor: pointer;" onclick="openNav()"
+      >&#9776;
+    </span>
+    <center>
+      <h1>
+        Welcome to Atlantis Bahamas
+      </h1>
+    </center>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <center>
+      <h2>
+        This resort includes the world's largest open-air marine habitat,
+        <br />
+        the Aquaventure water park with the Mayan Temple's Leap of Faith
+        waterslide, <br />
+        11 unique pools, renowned beaches, and much more.
+      </h2>
+      <div class="container">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mayan_Temple_Slides_at_Atlantis_1.jpg/800px-Mayan_Temple_Slides_at_Atlantis_1.jpg?20070114022441"
+          class="image"
+          style="width: 100%;"
+        />
+        <div class="middle">
+          <div class="text">Leap of Faith Waterslide</div>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>

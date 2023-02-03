@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    />
+  </head>
+  <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="travel.html">Travel</a>
+        <a href="index.html">Homepage</a>
+        <a href="weather.html">Weather</a>
+      </div>
+    </div>
+    <span style="font-size: 40px; cursor: pointer;" onclick="openNav()"
+      >&#9776;
+    </span>
+    <center>
+      <h1>Atlantis Bahamas: History</h1>
+      <p>
+        Atlantis opened on December, 1994. It was created by Sol Kerzner after
+        he purchased the resort on May, 1994. <br />
+        It started as a 1,147 room resort, with 14 acres for swimming pools,
+        waterfalls, a lazy river ride, and six exhibit lagoons including a clear
+        underwater tunnel in a shark habitat. <br />
+        After two years, the Royal Towers and Phase II had their grand opening
+        which cost $800M. <br />
+        This included the spectacular Mayan Temple waterslide complex, 6
+        swimming areas, the world’s largest open-air marine environment with 11
+        million gallons of water, and the Royal Marina, host to sleek mega
+        yachts. Atlantis became very quickly recognized by celebrities such as
+        Michael Jackson and Stevie Wonder. <br />
+      </p>
+      <button>
+        <a
+          href="https://careers.atlantisbahamas.com/theatlantislife/cultureandhistory/history"
+          target="blank"
+          >Click here for more information</a
+        >
+      </button>
+      <br />
+      <div class="container">
+        <img
+        src="https://www.wrnash.com/wp-content/uploads/1998/12/March-2006-034-855x570.jpg"
+        class="image"
+        style="width: 50%"
+        />
+        <div class="middle">
+            <div class="text">Atlantis Construction Site</div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img
+        src="https://www.de-simone.com/assets/4223Ax05.jpg"
+        class="image"
+        style="width: 50%"
+        />
+        <div class="middle">
+          <div class="text">Atlantis Construction Site</div>
+        </div>
+      </div>
+    </center>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    />
+  </head>
+  <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="travel.html">Travel</a>
+        <a href="history.html">History</a>
+        <a href="index.html">Homepage</a>
+      </div>
+    </div>
+    <span style="font-size: 40px; cursor: pointer;" onclick="openNav()"
+      >&#9776;</span
+    >
+    <center>
+      <h1>Atlantis Bahamas: Weather</h1>
+      <p>
+        The weather is mostly ranging from 75-80 degrees Fahrenheit and is
+        mostly sunny. On Thursday, April 14 and Friday, April 15, there is rainy
+        weather.
+      </p>
+      <button>
+        <a
+          href="https://www.nassauparadiseisland.com/nassau-paradise-island-bahamas-weather"
+          target="blank"
+          >Click here to access the weather forecast from April 12th - April
+          19th</a
+        >
+      </button>
+      <br />
+      <div class="container">
+        <img
+          src="https://www.nassauparadiseisland.com/sites/all/modules/custom/npi_weather/img/partlycloudy.png"
+          class="image"
+          style="width: 50%;"
+        />
+        <div class="middle">
+          <div class="text">Partly Cloudy Throughout the Day</div>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          src="https://www.nassauparadiseisland.com/sites/all/modules/custom/npi_weather/img/clear.png"
+          class="image"
+          style="width: 50%;"
+        />
+        <div class="middle">
+          <div class="text">Sunny</div>
+        </div>
+      </div>
+    </center>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>

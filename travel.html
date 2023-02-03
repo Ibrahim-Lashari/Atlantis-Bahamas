@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    />
+  </head>
+  <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="index.html">Homepage</a>
+        <a href="history.html">History</a>
+        <a href="weather.html">Weather</a>
+      </div>
+    </div>
+    <span style="font-size: 40px; cursor: pointer;" onclick="openNav()"
+      >&#9776;
+    </span>
+    <center>
+      <h1>Atlantis Bahamas: Travel</h1>
+      <div class="container">
+        <img
+          src="https://previews.123rf.com/images/ntlstudio/ntlstudio2004/ntlstudio200400211/144612628-airport-flat-color-vector-illustration-runway-with-departing-plane-2d-cartoon-landscape-with-control.jpg"
+          class="image"
+          style="width: 75%;"
+        />
+        <div class="middle">
+          <div class="text">Airport</div>
+        </div>
+      </div>
+      <div class="container">
+        <img
+          src="https://cdn.pixabay.com/photo/2012/04/10/17/24/airplane-26560_960_720.png"
+          class="image"
+          style="width: 75%;"
+        />
+        <div class="middle">
+          <div class="text">Airplane</div>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table>
+          <tr>
+            <th></th>
+            <th>Mon, Apr 11</th>
+            <th>Tue, Apr 12</th>
+            <th>Wed, Apr 13</th>
+            <th>Thu, Apr 14</th>
+            <th>Fri, Apr 15</th>
+          </tr>
+          <tr>
+            <td>Cheapest Flights</td>
+            <td>$131</td>
+            <td>$120</td>
+            <td>$177</td>
+            <td>$891</td>
+            <td>$317</td>
+          </tr>
+        </table>
+      </div>
+      <button>
+        <a
+          href="https://www.travelocity.com/Flights-Search?leg1=from%3ANewark%2C%20NJ%20%28EWR-Liberty%20Intl.%29%2Cto%3ANassau%20%28NAS-Lynden%20Pindling%20Intl.%29%2Cdeparture%3A4%2F13%2F2022TANYT&mode=search&options=carrier%3A%2A%2Ccabinclass%3A%2Cmaxhops%3A1%2Cnopenalty%3AN&pageId=0&passengers=adults%3A1%2Cchildren%3A0%2Cinfantinlap%3AN&trip=oneway"
+          target="blank"
+          >Click here to access flights to Atlantis</a
+        >
+      </button>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7227.013729909886!2d-77.32733897775748!3d25.08469805273654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x892f7da4cf39538f%3A0x6a76b269857686d4!2sAtlantis%20Bahamas!5e0!3m2!1sen!2sus!4v1649698313167!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </center>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>
